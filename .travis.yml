@@ -1,3 +1,8 @@
 language: java
 jdk:
  - oraclejdk8
+ deploy:
+              provider: heroku
+              api-key: f986c0f2-bd56-4457-bb31-603feea966cc
+               secure: $HEROKU_API_KEY
+              app: lippep-spring-boot-test
